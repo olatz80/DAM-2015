@@ -1,0 +1,11 @@
+table{
+    border:1px;
+    border-style: solid;
+}
+td {
+    text-align: center;
+}
+thead{
+    text-align: center;
+
+}
