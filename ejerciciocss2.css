@@ -1,0 +1,26 @@
+h1 {color:teal;}
+
+h2, caption, em {color:blue;}
+
+strong { color:red;}
+
+.destacado {color:orange;}
+
+a {color:red; text-decoration: underline;}
+
+em {color:blue; font-style: italic}
+
+table {border: 1px solid black; border-collapse: collapse;}
+
+th {color:orange; border:1px solid black;}
+
+td {color:green; border:1px solid black;}
+
+tfoot th {color:red; border:1px solid black; }
+
+#adicional { color:olive;}
+
+#especial { color:fuchsia;}
+
+#adicional a {color:green;}
+
