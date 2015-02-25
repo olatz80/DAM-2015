@@ -1,0 +1,35 @@
+li {
+    margin: 0;
+    float: left;
+    width: 50%;
+    list-style: none;
+}
+
+label {
+    display: block;
+}
+
+input {
+    display: block;
+}
+
+span>label {
+    color: grey;
+    font-size: 0.75em;
+}
+
+.requerido {
+    color: red;
+}
+
+ul>li:last-child {
+    width: 100%;
+    border-top: 1px solid grey;
+    padding-top: 25px;
+    float:right;
+}
+
+
+
+li>input { float:right;}
+
