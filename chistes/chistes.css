@@ -1,0 +1,51 @@
+body {
+    background-color: #F7BE81;
+}
+
+h1 {
+    color: white;
+    font-variant: small-caps;
+    font-family: sans-serif;
+}
+
+.textocabecera{font-style: italic; }
+span {font-weight: bold;}
+.titulo {
+    position: relative;
+    margin-left: 500px;
+}
+
+.cabecera {
+    position: relative;
+    margin-left: 600px;
+}
+
+
+.clase1 {
+    background-color: #E0E6F8;
+    border-style: dotted;
+}
+
+.clase2 {
+    background-color: #F2F5A9;
+    border-color: #F7FE2E;
+    border-style: solid;
+}
+
+.clase3 {
+    background-color: #06A2B7;
+    border-color: #058394;
+    border-style: solid;
+}
+
+.clase4 {
+    background-color: #E0E6F8;
+    border-color: #848484;
+    border-style: double;
+}
+
+.clase5 {
+    background-color: #CED8F6;
+    border-color: #BCA9F5;
+    border-style: dashed;
+}
