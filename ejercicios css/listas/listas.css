@@ -1,0 +1,33 @@
+h1 {
+    font-weight: bold;
+}
+
+.lista > li {
+    background-color: #f56af5;
+}
+
+.lista > li > ul {
+    background-color: #f4a8f4;
+    margin-bottom: 10px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul.listahorizontal,
+ul.listahorizontal ul {
+    display: inline;
+}
+
+.puntosvertical > li > ul > li {
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: #f4a8f4;
+}
+
+.puntosvertical > li {
+    display: inline-block;
+    background-color: #f56af5;
+}
