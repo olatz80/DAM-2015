@@ -1,0 +1,84 @@
+body {
+    background: #e9e6e6;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.caja1 {
+    position: relative;
+    background-color: #ee9a7b;
+    text-align:center;
+    width: 80%;
+    height: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:5%;
+    padding-top: 5px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    
+    
+}
+
+.caja2 {
+    position:absolute;
+    margin-left: 5%;
+    width:35%;
+    height: 200px;
+    background-color: #faeba7;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    
+}
+
+.caja3 {
+    background: #c0fbfb;
+    text-align: right;
+    display: inline-block;
+     width:35%;
+    height: 200px;
+}
+
+.caja4 {
+    background-color: #c9fb7e;
+    text-align: center;
+    display: inline-block;
+}
+
+.caja5 {
+    background-color: #f6cefc;
+    text-align: left;
+    display: inline-block;
+}
+
+.caja6 {
+    background-color: #fc8c8c;
+    text-align: right;
+    display: inline-block;
+}
+
+/* en vez de usar divs, usamo p-s, no hacen falta las cajas.
+p#m1{
+background
+border: color 4px solid;
+text-align
+position absolute
+height
+right o left dependiendo de
+top 
+width}
+*/
+
+/* a p le damos el hover:
+
+p:hover{
+z-index:3;
+}*/

@@ -1,0 +1,62 @@
+body {
+    background-color: #b6fa9d;
+}
+
+#cajacita {
+    background-color: #b4beb1;
+    width: 50%;
+    left:25%;
+    top:25%;
+    height: 50%;
+    overflow: hidden;
+    position:absolute;
+   
+}
+
+
+p { font-family: sans-serif;
+    font-size:4em;
+    text-transform: capitalize;
+    }
+p:first-letter { color:red; font-size:250%;}
+
+a {border: none;}
+
+#a {top 10%; left:10%;}
+#a {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+#b {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25%;
+}
+
+#c {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+#d {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 55%;
+}
+#e {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 70%;
+}
+#e {
+    position: absolute;
+    margin-top: 125px;
+    margin-left:90%;
+}
+#p {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 5%;
