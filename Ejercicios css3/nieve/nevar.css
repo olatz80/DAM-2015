@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    background: #666 url(ej03_tree.jpg) no-repeat -60px 0;
+    width: 420px;
+    height: 480px;
+    position: relative;
+   
+}
+
+.snowflake {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    
+}
+
+.snowflake.f1 {
+    left: 40px;
+    
+     -webkit-animation-name: nieve1;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count:infinite;
+   -webkit-animation-name: movi;
+    -webkit-animation-duration:2s;
+     -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function:ease-in-out;
+    
+    
+   
+   
+    
+}
+
+.snowflake.f2 {
+    font-size: 1.8em;
+    left: 120px;
+     -webkit-animation-name: nieve1;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+.snowflake.f3 {
+    left: 200px;
+     -webkit-animation-name: nieve1;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+.snowflake.f4 {
+    font-size: 1.5em;
+    left: 280px;
+    -webkit-animation-name: nieve1;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+ @-webkit-keyframes movi {
+        from {
+        margin-left: 2%;
+       
+    }
+ 
+    to {
+        margin-left: 12%;
+       
+    }
+}
+@-webkit-keyframes nieve1 {
+    
+    0% {
+
+        margin-top:5%
+            
+    }
+    
+    10%{
+        margin-top:15%;
+
+    }
+    15%{
+        margin-top:20%;
+   }
+    20%{
+        margin-top:25%;
+
+    }
+     25%{
+        margin-top:30%;
+
+    }
+     35%{
+        margin-top:35%;
+
+    }
+     40%{
+        margin-top:40%;
+
+    }
+    50%{
+        margin-top:50%;
+
+    }
+    100% {
+      
+        margin-top: 80%;
+        opacity: 0;
+    }
+}
+   
+    
+    
+    
+}
