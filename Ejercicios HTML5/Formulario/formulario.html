@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css" />
+</head>
+
+<body>
+    <form name="formulario" method="POST">
+        Introduce tu email:
+        <input type="email" name="email">
+        <br/> Url:
+        <input type="url">
+        <br/> Date:
+        <input type="date">
+        <br/> Time:
+        <input type="time">
+        <br/> Fecha y hora:
+        <input type="datetime">
+        <br/>Month:
+        <input type="month">
+        <br/> Week:
+        <input type="week">
+        <br/> Numero:
+        <input type="number">
+        <br/> Rango:
+        <input type="range">
+        <br/> Numero de Telefono:
+        <input type="tel">
+        <br/> Search:
+        <input type="search">
+        <br/> Elige un color:
+        <input type="color">
+        <br/> Lista:
+        <input id="form-person-title" type="text" list="mylist">
+<datalist id="mylist">
+    <option label="Mr" value="Mr">
+    <option label="Ms" value="Ms">
+    <option label="Prof" value="Mad Professor">
+</datalist>
+        <br/>
+        Aut,phold,Required, autocomplete:
+        <input type="autofocus placeholder required autocomplete">
+        <br/>
+        Numeros [1-10]:
+        <input type="number" min="1" max="10">
+        <br/>
+        Ficheros:
+        <input type=file  multiple="multiple">
+        <br/>
+        Contraseña:
+        <input type="password">
+        <br/>
+        Progreso:<progress value="1" max="20"></progress>
+        <br/>
+        Validar:        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
